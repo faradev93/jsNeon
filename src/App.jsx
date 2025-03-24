@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Router, Routes } from "react-router";
 import Dwork1 from "./components/Dwork1";
+import Dwork2 from "./components/Dwork2";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/dwork1" element={<Dwork1 />}></Route>
+          <Route path="/dwork2" element={<Dwork2 />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

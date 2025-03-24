@@ -4,8 +4,4 @@ import "./index.css";
 import App from "./App.jsx";
 
 const feri = document.getElementById("feriWebTest");
-createRoot(feri).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+createRoot(feri).render(<App />);
